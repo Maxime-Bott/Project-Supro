@@ -1,5 +1,14 @@
 # Project-Supro
 
+This exercise was carried out during my web developer courses at BeCode Liège.
+
+The mission was to carry out a group project for the first time. You can find the original repository with the commits [on this page](https://github.com/Samantha-35/Project-supro).
+
+### My teammates
+[Alejandro Montilla](https://github.com/AlejoVE)
+<br/>
+[Samantha Ramakers](https://github.com/Samantha-35)
+
 ## Missions objectives
 
 - Consolidate your knowledges in git, HTML, CSS, Sass
