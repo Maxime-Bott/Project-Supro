@@ -54,3 +54,12 @@ Your mission is to build the front-end integration. John Lafrite provided the de
 8. NO BUG, everything must work.
 9. Respect the timeline. If not, at least the Homepage, Shop and Single product has to be completed (it's the most important for the client).
 10. Everybody in the team must code.
+
+## Our method
+
+We decided to use sass and bootstrap for this project.
+We divided the tasks like this :
+
+- [Samantha](https://github.com/Samantha-35) did the [about page](https://maxime-bott.github.io/Project-Supro/about.html).
+- [Alejandro](https://github.com/AlejoVE) did the [product page](https://maxime-bott.github.io/Project-Supro/product.html) and the [shop page](https://maxime-bott.github.io/Project-Supro/shop.html).
+- [Maxime](https://github.com/Maxime-Bott) did the [home page](https://maxime-bott.github.io/Project-Supro/index.html) and the [contact page](https://maxime-bott.github.io/Project-Supro/contact.html).
