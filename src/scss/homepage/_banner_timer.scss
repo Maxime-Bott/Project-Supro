@@ -1,0 +1,140 @@
+.banner-timer {
+    background: url("../../assets/img/imgHomePage/deals_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 0;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0!important;
+    margin-top: 50px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    p{
+        padding:0 !important;
+    }
+a {
+    width: 66px!important;
+    height: 20px;
+}
+}
+.shop-link{
+    @include text-underline;
+    height:20px;
+    margin-bottom: 0;
+    margin-top:50px!important;
+    position:relative;
+    width:$max!important;
+    &:hover{
+        transform: scale(0.9);
+
+
+    }
+    
+}
+.banner-timer-row{
+    width: 70%!important;
+    margin:0!important;
+    display: flex;
+    flex-direction: column;
+    
+
+    .last-p {
+        margin-top:30px!important;
+        @include text-underline;
+        
+    }
+}
+
+.deals {
+
+    margin-bottom: 50px;
+    padding:0 !important;
+
+
+    a {
+        font-size: $size-h2;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    p:nth-child(1) {
+        @include p-grey;
+    }
+
+    p {
+        font-weight:500!important;
+    }
+
+    .btn {
+        background-color: $orange;
+        color: #fff!important;
+        padding:0 5px 0 5px;
+        font-size: 12px;
+        font-weight: 500;
+        transition: .3s;
+        &:hover{
+            background-color: #fff;
+            color: $orange!important;
+
+        }
+
+    }
+}
+
+.container-time{
+    background:#fff;
+    display: flex;
+    height: 80px!important;
+    width:400px!important;
+    justify-content: space-around;
+    padding:0 !important;
+
+    .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            margin: 0!important;
+            
+        }
+
+        p:nth-child(2){
+            
+            @include p-grey;
+        }
+
+        .span-time{
+            font-size:$size-h2;
+            font-weight: 500;
+        }
+        
+    }
+
+    
+}
+.old-price {
+    @include p-grey;
+    text-decoration: line-through;
+    font-size:16px;
+    margin-right: 5px!important;
+    
+}
+
+@media screen and(max-width:585px) {
+
+    #btn{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        margin-top: 20px!important;
+        width: 70px!important;
+        height: 30px!important;
+    }
+}

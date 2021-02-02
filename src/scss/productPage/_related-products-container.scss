@@ -1,0 +1,37 @@
+#related-products-container {
+	h2 {
+		text-align: center;
+		padding-bottom: 40px;
+		font-weight: bolder;
+		font-size: 20px;
+	}
+
+	#thumbnails-container {
+		.image-container {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+
+			h3,
+			p {
+				margin-top: 15px;
+				small {
+					color: #bdb4b4;
+				}
+			}
+
+			ul {
+				list-style: none;
+				margin-top: 10px;
+
+				li {
+					display: inline;
+					color: #f68773;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+@mixin text-underline {
+    color: #000!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    font-size: 12px;
+}
+
+@mixin img-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 0;
+    width: 100%;
+    height: 300px;;
+    position: relative;
+    
+}
+
+@mixin display-img-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    h2 {
+        width:200px;
+    }
+}
+
+@mixin size-img-banner{
+    width: 250px;
+
+}
+
+@mixin line {
+    display:block!important;
+    position: absolute;
+    background-color: white;
+    height:12px;
+    width:100%;
+    right: 0;
+    margin:0!important;
+    padding:0!important;
+}
+
+@mixin p-grey {
+    color: #959595!important;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@mixin hover {
+
+    opacity:0.8;
+    color: $orange;
+    border-bottom: 2px solid $orange;
+}
+
+@mixin p-black {
+    color: #000!important;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    font-family: 'roboto';
+}
+

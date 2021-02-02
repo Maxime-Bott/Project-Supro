@@ -1,0 +1,39 @@
+$salmon:#f78773;
+$text:#c3a698;
+$black:#000;
+$founder:#99a6b7;
+@mixin font () {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color:$black;
+}
+@mixin italic () {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: $black;
+    font-style: italic;
+
+}
+
+@mixin normalfont() {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: $black;    
+}
+@mixin founder() {
+    color:$founder;
+    font-size: large;
+    font-family: "Roboto";
+
+}
+@mixin bold {
+    color: $black;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+@mixin lightgrey {
+    color: $founder;
+    font-family: "Roboto";
+    font-weight: normal;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="src/css/product.css" />
+		<title>Product</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div class="banner-home container-fluid">
+			<header class="row row-navbar">
+				<div class="nav-left col-6">
+					<div class="logo-header">
+						<a href="index.html"><img src="assets/img/imgHomePage/logo_supro.svg" class="img-logo" alt="logo"></a>
+					</div>
+					<nav class="nav-list-left ">
+						<ul class="nav-ul-left " id="ul-nav">
+							<li class="nav-li-left">
+								<a href="index.html" id="link-nav-1">Home</a>
+							</li>
+							<li class="nav-li-left" id="link-nav-2">
+								<a href="shop.html">Shop</a>
+							</li>
+							<li class="nav-li-left" id="link-nav-3">
+								<a href="#">Collection</a>
+							</li>
+							<li class="nav-li-left" id="link-nav-4">
+								<a href="product.html">Pages</a>
+							</li>
+							<li class="nav-li-left" id="link-nav-5">
+								<a href="about.html">Blog</a>
+							</li>
+							<li class="nav-li-left" id="link-nav-6">
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+	
+				<div class="nav-right col-6">
+					<div class="search-bar">
+						<input type="text" class="search-bar" placeholder="Search Searching ..." maxlength="20"
+							style="color:#959595;">
+					</div>
+					<nav class="nav-list-right">
+						<ul class="nav-ul-right">
+							<li class="nav-li-right li-element">
+								<a href="#"><img src="assets/img/imgIcons/loupe.png" alt="icon"></a>
+							</li>
+							<li class="nav-li-right">
+								<a href="#"><img src="assets/img/imgIcons/user.png" alt="icon"></a>
+							</li>
+							<li class="nav-li-right">
+								<a href="#"><img src="assets/img/imgIcons/heart.png" alt="icon"></a>
+							</li>
+							<li class="nav-li-right " id="card-svg">
+								<a href="#"><img src="assets/img/imgIcons/shopping-cart.png" alt="icon"></a>
+							</li>
+							<li class="nav-li-right ">
+								<a href="#" id="btn-menu"><img src="assets/img/imgIcons/menu.png" alt="icon"></a>
+								<div id="display-menu">
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+
+		<main class="main-container">
+			<!-- SUB HEADER -->
+			<section class="sub-header">
+				<p>
+					<span class="p-gray"
+						>Home <i class="bi bi-circle-fill"></i> Wallets & Cases</span
+					>
+					<span class="hide"><br /></span>
+					<i class="bi bi-circle-fill p-gray"></i> Contrasting Design
+					T-shirt
+				</p>
+			</section>
+
+			<!-- Product and description -->
+			<section id="product-container-top">
+				<!-- Product images -->
+				<div id="product-images-container">
+					<div class="big-image-container">
+						<img src="./assets/img/imgProduct/1.jpg" alt="Model photo" />
+					</div>
+					<div id="thumbnails-container">
+						<div class="tiny-image-container">
+							<img
+								src="./assets/img/imgProduct/1.jpg"
+								alt="Model photo"
+							/>
+						</div>
+						<div
+							class="tiny-image-container opaque-image"
+							id="middle-image"
+						>
+							<img
+								src="./assets/img/imgProduct/2.jpg"
+								alt="Model photo"
+								class="opaque-image"
+							/>
+						</div>
+						<div class="tiny-image-container">
+							<img
+								class="opaque-image"
+								src="./assets/img/imgProduct/3.jpg"
+								alt="Model photo"
+							/>
+						</div>
+						<div class="tiny-image-container" id="t-shirt-image">
+							<img
+								class="opaque-image"
+								src="./assets/img/imgProduct/4.jpg"
+								alt="Model photo"
+							/>
+						</div>
+					</div>
+				</div>
+				<!-- Product description and cart -->
+				<div id="container-right-top">
+					<div id="product-description-container">
+						<ul>
+							<li><i class="bi bi-star-fill yellow-start"></i></li>
+							<li><i class="bi bi-star-fill yellow-start"></i></li>
+							<li><i class="bi bi-star-fill yellow-start"></i></li>
+							<li><i class="bi bi-star-fill yellow-start"></i></li>
+							<li><i class="bi bi-star-fill" id="silver-start"></i></li>
+							<li class="p-gray" id="review">1 Review</li>
+						</ul>
+
+						<h2>Contrasting Design T-shirt</h2>
+						<p class="gray-light">SKU: AB1609456789</p>
+						<p id="price">£95.90</p>
+						<p class="p-gray" id="description">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Perspiciatis corrupti dignissimos possimus consectetur
+							quasi voluptates.
+						</p>
+					</div>
+					<!-- CART CONTAINER -->
+					<div id="cart-container">
+						<div id="quantity-container">
+							<div id="input" class="border">
+								<button class="bi bi-dash button"></button>
+								<input type="number" id="number-input" value="1" />
+								<button class="bi bi-plus button"></button>
+							</div>
+
+							<div id="add-to-car-container">
+								<button id="add-to-car-button">ADD TO CART</button>
+								<button id="heart-button" class="border">
+									<i class="bi bi-heart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="border-bottom">
+							<button id="buy-now-button">BUY NOW</button>
+						</div>
+						<div id="category-tags-container">
+							<p class="p-gray">
+								<span>CATEGORY:</span> Women, Top, Accessories,
+								Jewellery
+							</p>
+							<p class="p-gray">
+								<span>TAGS:</span> clothing, t-shirt, woman
+							</p>
+							<i class="bi bi-facebook"></i>
+							<i class="bi bi-twitter"></i>
+							<i class="fab fa-pinterest"></i>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Small header -->
+			<div class="border-top border-bottom" id="small-header">
+				<ul>
+					<li><span>Description</span></li>
+					<li class="p-gray">Addition information</li>
+					<li class="p-gray" id="small-header-review">Review</li>
+				</ul>
+			</div>
+			<!-- Second product -->
+			<div id="second-product-container">
+				<div id="text-container">
+					<h3>Introduction</h3>
+					<p class="p-gray">
+						With ultralight, quality cotton canvas, the JanSport Houston
+						backpack is ideal for a life-on-the-go. This backpack features
+						premium faux leather bottom and trim details, padded 15 in
+						laptop sleeve and tricot lined tablet sleeve.
+					</p>
+					<h3>Features</h3>
+					<ul>
+						<li class="p-gray">
+							Fully paddded back panel, web hauded handle
+						</li>
+						<li class="p-gray">
+							Internal padded sleeve fits 15" laptop & unique fabric
+							application
+						</li>
+						<li class="p-gray">Internal tricot lined tablet sleeve</li>
+						<li class="p-gray">
+							One large main compartment and zippered
+						</li>
+						<li class="p-gray">Premium cotton canvas fabric</li>
+					</ul>
+				</div>
+				<img src="assets/img/imgProduct/pyjama.jpg" alt="Photo model" />
+			</div>
+
+			<!-- RELATED PRODUCTS -->
+			<section id="related-products-container">
+				<h2>Related Products</h2>
+				<div id="thumbnails-container">
+					<div class="image-container">
+						<img
+							src="./assets//img/imgShop/1.jpg"
+							class="img-fluid"
+							alt="sunglasses"
+						/>
+						<h3>Aviator sunglasses</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill p-gray"></i></li>
+						</ul>
+						<p><small>£9.90</small></p>
+					</div>
+					<div class="image-container">
+						<img
+							src="./assets//img/imgShop/prd_05_20.jpg"
+							class="img-fluid"
+							alt="Contrast backpack"
+						/>
+						<h3>Contrast Backpack</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill p-gray"></i></li>
+						</ul>
+						<p><small>£69.90</small></p>
+					</div>
+					<div class="image-container">
+						<img
+							src="./assets//img/imgShop/jacket.jpg"
+							class="img-fluid"
+							alt="backpack image"
+						/>
+						<h3>Embroidered Flowy Jacket</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill p-gray"></i></li>
+						</ul>
+						<p><small>£56.89</small></p>
+					</div>
+					<div class="image-container">
+						<img
+							src="./assets//img/imgShop/jumpsy.jpg"
+							class="img-fluid"
+							alt="jumpsy image"
+						/>
+						<h3>Floral Short Jumpsy</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill p-gray"></i></li>
+						</ul>
+						<p><small>£97.99</small></p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="container-fluid container-footer">
+			<div class="content-footer">
+				<div class="container-ul-footer">
+					<h4>HELP & INFORMATION</h4>
+					<ul class="footer-list">
+						<li><a href="#">Track Order</a></li>
+						<li><a href="#">Delivery & Returns</a></li>
+						<li><a href="#">Premier Delivery</a></li>
+						<li><a href="#">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="container-ul-footer">
+					<h4>ABOUT SUPRO</h4>
+					<ul class="footer-list">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Corporate</a></li>
+						<li><a href="#">Investors</a></li>
+					</ul>
+				</div>
+				<div class="container-ul-footer">
+					<h4>ONLINE SHOP</h4>
+					<ul class="footer-list">
+						<li><a href="#">Shoes</a></li>
+						<li><a href="#">Bags</a></li>
+						<li><a href="#">Wallets</a></li>
+						<li><a href="#">Belts</a></li>
+					</ul>
+				</div>
+				<div class="container-ul-footer">
+					<h4>LANGUAGE</h4>
+					<ul class="footer-list">
+						<li><a href="#">English ▼</a></li>
+					</ul>
+				</div>
+				<div class="container-ul-footer">
+					<h4>CURRENCY</h4>
+					<ul class="footer-list">
+						<li><a href="#">USD ▼</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="line-footer">
+				<div class="content-line">
+					<div class="line-left">
+						<p class="grey-text">
+							© <span class="supro">Supro. </span> All rights reserverd
+							2021
+						</p>
+					</div>
+					<div class="line-right">
+						<p class="grey-text">Privacy Policy</p>
+						<p class="grey-text">Term of use</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="src/js/menu.js"></script>
+	</body>
+</html>

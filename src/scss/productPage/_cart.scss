@@ -1,0 +1,46 @@
+@import './mixin';
+
+#cart-container {
+	width: 100%;
+
+	#quantity-container {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10px;
+
+		#input {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: 10px;
+			#number-input {
+				text-align: center;
+				border: none;
+			}
+			button {
+				@include buttonLight;
+			}
+		}
+
+		#add-to-car-container {
+			#add-to-car-button {
+				@include buttonStyle;
+				width: 80%;
+				margin-bottom: 20px;
+			}
+
+			#heart-button {
+				@include buttonLight;
+				font-size: 20px;
+				width: 15%;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	#buy-now-button {
+		@include buttonStyle;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+}

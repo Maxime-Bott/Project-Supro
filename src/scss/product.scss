@@ -1,0 +1,34 @@
+@import '_reset.scss';
+@import '_font.scss';
+@import 'homepage/_var.scss';
+@import 'homepage/_mixins.scss';
+@import '_navbar.scss';
+@import './productPage/cart';
+@import './productPage/sub-header';
+@import './productPage/product-container-top';
+@import './productPage/product-description';
+@import './productPage/cart';
+@import './productPage/category-tags-container';
+@import './productPage/small-header';
+@import './productPage/second-product-container';
+@import './productPage/related-products-container';
+@import './productPage/media';
+@import '_footer.scss';
+
+.main-container {
+	margin-top: 40px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.p-gray {
+	color: $gray-text;
+}
+
+.container-footer {
+	.content-footer {
+		padding: 0px;
+		width: 79%;
+	}
+}

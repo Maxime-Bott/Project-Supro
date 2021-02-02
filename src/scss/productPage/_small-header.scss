@@ -1,0 +1,21 @@
+#small-header {
+	ul {
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 10px;
+
+		li {
+			padding-bottom: 15px;
+			font-weight: bold;
+		}
+
+		//TODO: Add little effect over the review li
+
+		// #small-header-review::after {
+		// 	content: '(1)';
+		// 	right: 0px;
+		// 	top: 4px;
+		// 	width: 12px;
+		// }
+	}
+}

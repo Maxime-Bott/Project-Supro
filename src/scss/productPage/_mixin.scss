@@ -1,0 +1,20 @@
+@import './var';
+
+@mixin buttonStyle {
+	color: white;
+	background-color: $black-button;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+@mixin buttonLight {
+	border: none;
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+	font-size: 25px;
+	background-color: white;
+}

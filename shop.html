@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="src/css/shop.css" type="text/css">
+	<title>Shop</title>
+</head>
+
+<body>
+	<!-- HEADER -->
+	<div class="banner-home container-fluid">
+		<header class="row row-navbar">
+            <div class="nav-left col-6">
+                <div class="logo-header">
+                    <a href="index.html"><img src="assets/img/imgHomePage/logo_supro.svg" class="img-logo" alt="logo"></a>
+                </div>
+                <nav class="nav-list-left ">
+                    <ul class="nav-ul-left " id="ul-nav">
+                        <li class="nav-li-left">
+                            <a href="index.html" id="link-nav-1">Home</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-2">
+                            <a href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-3">
+                            <a href="product.html">Collection</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-4">
+                            <a href="#">Pages</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-5">
+                            <a href="about.html">Blog</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-6">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nav-right col-6">
+                <div class="search-bar">
+                    <input type="text" class="search-bar" placeholder="Search Searching ..." maxlength="20"
+                        style="color:#959595;">
+                </div>
+                <nav class="nav-list-right">
+                    <ul class="nav-ul-right">
+                        <li class="nav-li-right li-element">
+                            <a href="#"><img src="assets/img/imgIcons/loupe.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right">
+                            <a href="#"><img src="assets/img/imgIcons/user.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right">
+                            <a href="#"><img src="assets/img/imgIcons/heart.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right " id="card-svg">
+                            <a href="#"><img src="assets/img/imgIcons/shopping-cart.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right ">
+                            <a href="#" id="btn-menu"><img src="assets/img/imgIcons/menu.png" alt="icon"></a>
+                            <div id="display-menu">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+	</div>
+	<!-- MAIN SECTION -->
+	<main class="main">
+		<div id="sidebar">
+			<div id="active-filters">
+				<h2>Active filters</h2>
+				<ul>
+					<li class="gray-text">Min £9.00</li>
+					<li class="gray-text">Max £9.00</li>
+					<li class="gray-text">Remove all filter</li>
+				</ul>
+			</div>
+			<div id="categories">
+				<h2>Categories</h2>
+				<ul class="list">
+					<li class="gray-text">Bags</li>
+					<li class="gray-text">Clothing</li>
+					<li class="gray-text">Hats & Gloves</li>
+					<li class="gray-text">Men</li>
+					<li class="gray-text">More accessories</li>
+					<li class="gray-text">Shoes</li>
+					<li class="gray-text">T-shirt</li>
+					<li class="gray-text">Wallets & Cases</li>
+					<li class="gray-text">Women</li>
+				</ul>
+			</div>
+			<div id="filter-price">
+				<h2>Filter price</h2>
+				<input type="checkbox" disabled><input type="range" min="1" max="100" value="50" class="slider"><input
+					type="checkbox" disabled>
+				<p class="mt-3 gray-text">PRICE: $0 - $150 </p>
+			</div>
+			<div id="checkboxes">
+				<ul>
+					<li><i class="bi bi-circle-fill" id="point-black"><span class="gray-text"> Black</span></i><input
+							type="checkbox" id="checked" checked></li>
+					<li><i class="bi bi-circle-fill" id="point-blue"> <span class="gray-text"> Blue</span></i><input
+							type="checkbox"></li>
+					<li><i class="bi bi-circle-fill" id="point-gold"> <span class="gray-text"> Gold</span></i><input
+							type="checkbox"></li>
+					<li><i class="bi bi-circle-fill" id="point-nude"> <span class="gray-text"> Nude</span></i><input
+							type="checkbox"></li>
+					<li><i class="bi bi-circle-fill" id="point-orange"> <span class="gray-text"> Orange</span></i><input
+							type="checkbox"></li>
+					<li><i class="bi bi-circle-fill" id="point-red"> <span class="gray-text"> Red</span></i><input
+							type="checkbox"></li>
+					<li>LMXSL</li>
+				</ul>
+			</div>
+			<div id="products-container">
+				<h2>Products</h2>
+				<div class="thumbnail-container">
+					<img src="./assets//img/imgShop/jacket.jpg" class="img-fluid" alt="jacket image" />
+
+					<div class="thumbnail-description-container">
+						<h3>Embroidered Flowy Jacket</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill gray-star"></i></li>
+						</ul>
+						<p><small class="gray-text">£56.89</small></p>
+					</div>
+				</div>
+				<div class="thumbnail-container">
+					<img src="./assets//img/imgShop/prd_05_20.jpg" class="img-fluid" alt="Contrast backpack" />
+
+					<div class="thumbnail-description-container">
+						<h3>Contrast backpack</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill gray-star"></i></li>
+						</ul>
+						<p><small class="gray-text">£56.89</small></p>
+					</div>
+				</div>
+				<div class="thumbnail-container">
+					<img src="./assets//img/imgShop/5.jpg" class="img-fluid" alt="Women's Bag image" />
+
+					<div class="thumbnail-description-container">
+						<h3>Mango Women's Bag</h3>
+						<ul>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill"></i></li>
+							<li><i class="bi bi-star-fill gray-star"></i></li>
+						</ul>
+						<p><small class="gray-text">£89.59</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- SHOP SECTION -->
+
+		<section id="shop">
+			<div id="shop-header">
+				<div id="shop-title">
+					<h1>Shop</h1>
+					<br>
+					<p><span class="gray-text">Home</span> <i class="bi bi-dot"></i> Shop</p>
+				</div>
+				<div id="shop-list">
+					<ul>
+						<li>
+							25 <span class="gray-text">Products Found</span>
+						</li>
+						<li class="hidden">
+							Filter<i class="bi bi-chevron-down"></i>
+						</li>
+						<li class="hidden" id="sort-by">Sort by</li>
+						<li class="hidden" id="default"> <span class="gray-text">default</span>
+							<i class="bi bi-chevron-down" ></i>
+						</li>
+						<li class="hidden">
+							<i class="bi bi-grid-3x3-gap"></i>
+							<i class="bi bi-list gray-text"></i>
+						</li>
+						<li id="hidden-li"><i class="bi bi-sliders"></i></li>
+					</ul>
+				</div>
+			</div>
+			<div id="shop-body">
+				<div class="image-container">
+					<img src="./assets//img/imgShop/1.jpg" class="img-fluid" alt="sunglasses" />
+					<h3>Aviator sunglasses</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£9.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/prd_05_20.jpg" class="img-fluid" alt="Contrast backpack" />
+					<h3>Contrast Backpack</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£69.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/jacket.jpg" class="img-fluid" alt="backpack image" />
+					<h3>Embroidered Flowy Jacket</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£56.89</small></p>
+				</div>
+				<!-- second row -->
+				<div class="image-container">
+					<img src="./assets//img/imgShop/jumpsy.jpg" class="img-fluid" alt="jumpsy image" />
+					<h3>Floral Short Jumpsy</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£97.99</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/5.jpg" class="img-fluid" alt="backpack image" />
+					<h3>Mango Women's Bag</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£89.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/6.jpg" class="img-fluid" alt="Shoes image" />
+					<h3>Glitter Decorated Shoes</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£56.90</small></p>
+				</div>
+				<!-- third row -->
+				<div class="image-container">
+					<img src="./assets//img/imgShop/7.jpg" class="img-fluid" alt="T-shirt image" />
+					<h3>Contrasting Design T-shirt</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£95.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/8.jpg" class="img-fluid" alt="Parka image" />
+					<h3>Furry Hooded Parka</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£95.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/9.jpg" class="img-fluid" alt="Dress image" />
+					<h3>Wrap Back Dress</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£55.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/10.jpg" class="img-fluid" alt="Shop bag image" />
+					<h3>Leather Shop Back</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£59.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/11.jpg" class="img-fluid" alt="jacket image" />
+					<h3>Shearling Leather Jacket</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£159.90</small></p>
+				</div>
+				<div class="image-container">
+					<img src="./assets//img/imgShop/12.jpg" class="img-fluid" alt="jacket image" />
+					<h3>Cropped Denim Jumpsuit</h3>
+					<ul>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill"></i></li>
+						<li><i class="bi bi-star-fill gray-star"></i></li>
+					</ul>
+					<p><small>£89.90</small></p>
+				</div>
+			</div>
+			<h2>DISCOVER MORE</h2>
+		</section>
+
+	</main>
+	<footer class="container-fluid container-footer">
+        <div class="content-footer">
+            <div class="container-ul-footer">
+                <h4>HELP & INFORMATION</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                    <li><a href="#">Premier Delivery</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>ABOUT SUPRO</h4>
+                <ul class="footer-list">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Corporate</a></li>
+                    <li><a href="#">Investors</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>ONLINE SHOP</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Wallets</a></li>
+                    <li><a href="#">Belts</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>LANGUAGE</h4>
+                <ul class="footer-list">
+                    <li><a href="#">English ▼</a></li>
+
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>CURRENCY</h4>
+                <ul class="footer-list">
+                    <li><a href="#">USD ▼</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line-footer">
+            <div class="content-line">
+                <div class="line-left">
+                    <p class="grey-text">© <span class="supro">Supro. </span> All rights reserverd 2021</p>
+                </div>
+                <div class="line-right">
+                    <p class="grey-text">Privacy Policy</p>
+                    <p class="grey-text">Term of use</p>
+                </div>
+            </div>
+        </div>
+	</footer>
+	<script src="src/js/menu.js"></script>
+</body>
+
+</html>

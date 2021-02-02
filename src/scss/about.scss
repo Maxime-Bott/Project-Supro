@@ -1,0 +1,339 @@
+
+@import "_reset.scss";
+@import 'homepage/_var.scss';
+@import 'homepage/_mixins.scss';
+@import "_navbar.scss";
+@import "_var.scss";
+@import "_font.scss";
+@import "_footer.scss";
+html {
+    overflow-x: hidden;
+}
+.cofo{
+   @include italic;
+
+}
+.container-footer{
+    .content-footer{
+        width: 100%;
+    }
+}
+
+p {
+    font-family: "Roboto";
+}
+.about {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.smilet {
+    margin-top: 4rem;
+}
+.supro {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.supro h4 h2 {
+    margin-top: 2rem;
+}
+
+.supro text {
+    margin-top: 4rem;
+}
+.img {
+    margin-left: 160px;
+}
+.title {
+    color: $black;
+}
+
+.subtitle {
+    @include font;
+}
+
+.italic {
+    @include italic;
+}
+.luxtext{
+    margin-left: 40px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.normalfont {
+    @include normalfont;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.greyfontn {
+    @include founder;
+}
+
+.text-align {
+    margin-left: 2rem;
+}
+
+.image {
+    display: flex;
+}
+
+.ind {
+    font-weight: bolder;
+    color: $black;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.cr {
+    margin-top: 3rem;
+}
+
+
+h5 {
+    color: $salmon;
+}
+
+h2 {
+    color: $salmon;
+}
+.pas{
+    color: $salmon; 
+    font-size: 30px
+}
+.luxury {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color:$black;
+    text-align: justify;
+}
+.lms{
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color:$black;
+    text-align: justify;
+}
+.text {
+    @include founder;
+    text-align: justify;
+}
+
+.from {
+    margin-top: 2rem;
+}
+
+.big {
+    margin-top: 6rem;
+}
+
+.bs p{
+    
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color:$black;
+    text-align: justify;
+}
+
+.bt p {
+    color: grey;
+    text-align: justify;
+}
+
+.dates .dts {
+    @include font;
+    margin-top: 2rem;
+}
+
+.ics {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+}
+
+.icsupper,
+.icslower {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.icons p {
+    font-weight: bold;
+}
+
+.leadership {
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.mmb {
+    margin-left: 4%;
+}
+
+.flexi {
+    display: flex;
+    justify-content: center;
+}
+
+.brands .flexi {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.picture {
+    width: 48%;
+
+    img {
+        width: 100%;
+    }
+}
+
+/*.reverse{
+    justify-content: space-between;
+}
+.about{
+    width: 30%;
+}
+.image{
+    width: 50%;
+}*/
+
+.imgsize {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+
+    img {
+        width: 16%;
+        padding-right: 30px;
+        height: 30px;
+    }
+
+    img:nth-child(3n) {
+        padding-right: 40px;
+    }
+}
+.pict{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .left_footer {
+        flex-direction: row;
+    }
+
+    .smilet {
+        display: flex;
+    }
+
+    .divdates {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dates {
+        width: 50%;
+    }
+
+    .divdates :nth-child(2n) {
+        padding-right: 40px;
+    }
+
+    .picture {
+        width: 33%;
+    }
+
+    .imgsize {
+        img {
+            width: 16%;
+        }
+    }
+    .reverse {
+        margin-top: 4rem;
+        justify-content: space-between;
+    }
+    .image {
+        display: flex;
+    }
+
+}
+
+.reverse {
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 992px) {
+    .reverse {
+        flex-direction: row-reverse;
+        display: flex;
+    }
+
+    .biggie {
+        display: flex;
+    }
+
+    .ics {
+
+        .icsupper,
+        .icslower {
+            width: 50%;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+
+    .division {
+        display: flex;
+
+        p {
+            width: 50%;
+            padding-right: 40px;
+        }
+    }
+
+}
+
+.wkhd {
+    padding-right: 40px;
+}
+
+.icslower {
+    flex-direction: column;
+}
+
+.icsupper {
+    flex-direction: column;
+}
+
+.darkh {
+    padding-left: 7px;
+}
+.ftc{
+    margin-top: 10rem;
+}

@@ -1,0 +1,15 @@
+@import './var';
+
+.sub-header {
+	padding-left: 5px;
+
+	p {
+		line-height: 1.6;
+	}
+
+	i {
+		font-size: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

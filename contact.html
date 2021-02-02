@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/contact.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <script src="https://kit.fontawesome.com/c4bca5b848.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="banner-home container-fluid">
+        <header class="row row-navbar">
+            <div class="nav-left col-6">
+                <div class="logo-header">
+                    <a href="index.html"><img src="assets/img/imgHomePage/logo_supro.svg" class="img-logo" alt="logo"></a>
+                </div>
+                <nav class="nav-list-left ">
+                    <ul class="nav-ul-left " id="ul-nav">
+                        <li class="nav-li-left">
+                            <a href="index.html" id="link-nav-1">Home</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-2">
+                            <a href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-3">
+                            <a href="#">Collection</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-4">
+                            <a href="product.html">Pages</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-5">
+                            <a href="about.html">Blog</a>
+                        </li>
+                        <li class="nav-li-left" id="link-nav-6">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nav-right col-6">
+                <div class="search-bar">
+                    <input type="text" class="search-bar" placeholder="Search Searching ..." maxlength="20"
+                        style="color:#959595;">
+                </div>
+                <nav class="nav-list-right">
+                    <ul class="nav-ul-right">
+                        <li class="nav-li-right li-element">
+                            <a href="#"><img src="assets/img/imgIcons/loupe.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right">
+                            <a href="#"><img src="assets/img/imgIcons/user.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right">
+                            <a href="#"><img src="assets/img/imgIcons/heart.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right " id="card-svg">
+                            <a href="#"><img src="assets/img/imgIcons/shopping-cart.png" alt="icon"></a>
+                        </li>
+                        <li class="nav-li-right ">
+                            <a href="#" id="btn-menu"><img src="assets/img/imgIcons/menu.png" alt="icon"></a>
+                            <div id="display-menu">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    
+    <main>
+        <!-- BANNER CONTACT -->
+        <div class="container-fluid banner-contact">
+            <div class="title-contact">
+                <h1>Contact</h1>
+                <div class="subtitle-contact">
+                    <a href ="index.html" class="link-home p-grey">Home</a>
+                    <span class="dot-subtitle p-grey">•</span>
+                    <a href="contact.html" class="link-contact p-black">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- FORM SECTION -->
+
+        <div class="container-fluid contact-form">
+            <div class="first-section">
+                <form method="post" action="#" class="content-form">
+                    <div class="form-top">
+                        <div class="form-label">
+                            <label for="name" class="p-black fw-bold">Name<span class="orange-star"> *</span></label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="form-label">
+                            <label for="email" class="p-black fw-bold">Email<span class="orange-star"> *</span></label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+
+                    <div class="form-bottom">
+                        <div class="form-label" >
+                            <label for="message" class="p-black fw-bold">Your Message<span class="orange-star"> *</span></label>
+                            <textarea name="message" id="message" ></textarea>
+                        </div>
+                        <input type="submit" value="SEND MESSAGE" id="submit">
+                    </div>
+                </form>
+                <div class="coord-right">
+                    <ul class="social-network">
+                        <li class="li-social"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <address class="address-place">
+                        <p class="h3-black fw-bold">Our Office</p>
+                        <p class="p-grey">15 St Margarets Lane New York, NY</p>
+                        <p class="p-grey">10033</p>
+                    </address>
+                    <address class="address-coord">
+                        <p class="h3-black fw-bold">Get in Touch</p>
+                        <p class="p-black fw-bold">PHONE NUMBER</p>
+                        <a href="tel:+16316796357" class="p-grey">631-679-6357</a>
+                        <p class="p-black mt-3 fw-bold">EMAIL</p>
+                        <a href="mailto:supro@example.com" class="p-grey">supro@example.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+
+        <div class="container-fluid address-section">
+            <div class="container-address">
+                <address class="content-address">
+                    <div class="location">
+                        <p class="h3-black fw-bold">Store in London</p>
+                        <div class="location-address">
+                            <p class="p-black fw-bold">LOCATION</p>
+                            <p class="p-grey">16 lolaire Road, New Abbey, DG2 2SX</p>
+                        </div>
+                    </div>
+                    <div class="coord-sm">
+                        <div class="phone-number">
+                            <p class="p-black fw-bold">PHONE NUMBER</p>
+                            <a href="tel:+16316796357" class="p-grey">631-679-6357</a>
+                        </div>
+                        <div class="address-mail">
+                            <p class="p-black fw-bold">EMAIL</p>
+                            <a href="mailto:suprolondon@example.com" class="p-grey">suprolondon@example.com</a>
+                        </div>
+                    </div>
+                </address>
+
+                <address class="content-address">
+                    <div class="location">
+                        <p class="h3-black fw-bold">Store in Paris</p>
+                        <div class="location-address">
+                            <p class="p-black fw-bold">LOCATION</p>
+                            <p class="p-grey">16 lolaire Road, New Abbey, DG2 2SX</p>
+                        </div>
+                    </div>
+                    <div class="coord-sm">
+                        <div class="phone-number">
+                            <p class="p-black fw-bold">PHONE NUMBER</p>
+                            <a href="tel:+16316796357" class="p-grey">631-679-6357</a>
+                        </div>
+                        <div class="address-mail">
+                            <p class="p-black fw-bold">EMAIL</p>
+                            <a href="mailto:suproparis@example.com" class="p-grey">suproparis@example.com</a>
+                        </div>
+                    </div>
+                </address>
+
+                <address class="content-address">
+                    <div class="location">
+                        <p class="h3-black fw-bold">Store in Dubaï</p>
+                        <div class="location-address">
+                            <p class="p-black fw-bold">LOCATION</p>
+                            <p class="p-grey">16 lolaire Road, New Abbey, DG2 2SX</p>
+                        </div>
+                    </div>
+                    <div class="coord-sm">
+                        <div class="phone-number">
+                            <p class="p-black fw-bold">PHONE NUMBER</p>
+                            <a href="tel:+16316796357" class="p-grey">631-679-6357</a>
+                        </div>
+                        <div class="address-mail">
+                            <p class="p-black fw-bold">EMAIL</p>
+                            <a href="mailto:suprodubai@example.com" class="p-grey">suprodubai@example.com</a>
+                        </div>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container-fluid container-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491215.26596471!2d-73.93459619941063!3d40.71785328796164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20%C3%89tat%20de%20New%20York%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sbe!4v1612110324645!5m2!1sfr!2sbe"   style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </main>
+    <footer class="container-fluid container-footer">
+        <div class="content-footer">
+            <div class="container-ul-footer">
+                <h4>HELP & INFORMATION</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                    <li><a href="#">Premier Delivery</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>ABOUT SUPRO</h4>
+                <ul class="footer-list">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Corporate</a></li>
+                    <li><a href="#">Investors</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>ONLINE SHOP</h4>
+                <ul class="footer-list">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Wallets</a></li>
+                    <li><a href="#">Belts</a></li>
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>LANGUAGE</h4>
+                <ul class="footer-list">
+                    <li><a href="#">English ▼</a></li>
+
+                </ul>
+            </div>
+            <div class="container-ul-footer">
+                <h4>CURRENCY</h4>
+                <ul class="footer-list">
+                    <li><a href="#">USD ▼</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" container-fluid line-footer">
+            <div class="content-line">
+                <div class="line-left">
+                    <p class="grey-text">© <span class="supro">Supro. </span> All rights reserverd 2021</p>
+                </div>
+                <div class="line-right">
+                    <p class="grey-text">Privacy Policy</p>
+                    <p class="grey-text">Term of use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/js/menu.js"></script>
+</body>
+</html>

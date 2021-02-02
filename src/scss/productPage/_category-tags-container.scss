@@ -1,0 +1,23 @@
+@import './mixin';
+
+#category-tags-container {
+	width: 85%;
+	font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+	p {
+		padding-bottom: 15px;
+
+		span {
+			letter-spacing: 1px;
+			font-weight: bolder;
+			color: black;
+		}
+	}
+
+	i {
+		font-size: 16px;
+		padding-left: 5px;
+	}
+}

@@ -1,0 +1,103 @@
+.left-banner{
+    height: 525px!important;
+    display: flex;
+    align-items: center;
+    padding:20px 50px 20px 50px!important;
+
+    .circle-ul {
+        display: none!important;
+    }
+
+    ul{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:5px 12px 5px 12px;
+        
+        .logo-google{
+            width:18px;
+        }
+
+        li a{
+            padding: 5px!important;
+            height: 30px!important;
+            width: 30px!important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-pinterest{
+    color: #959595!important;
+    padding: 10px!important;
+    transition: color .3s!important;
+}
+
+.fa-twitter:hover,
+.fa-facebook-f:hover,
+.fa-google-plus-g:hover,
+.fa-pinterest:hover {
+    color: #000!important;
+} 
+
+.fa-google-plus-g {
+    position: relative;
+    left: 3px;
+}
+
+@media screen and(max-width:1178px) {
+    .left-banner {
+        padding:20px 27px 20px 27px!important;
+    }
+}
+
+
+
+@media screen and(max-width:550px) {
+
+    .sidebar-ul {
+        flex-direction: row !important;
+        height: 40px !important;
+    }
+
+    .left-banner {
+        height: 80px !important;
+        width: 300px !important;
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 0;
+
+        .circle-ul {
+        display: flex!important;
+        flex-direction: row!important;
+        width: 100px!important;
+        height: auto!important;
+        color: black!important;
+        font-size: 12px!important;
+    }
+
+        li a {
+            padding: 10px !important;
+            margin: 5px !important;
+
+        }
+    }
+
+    .fa-twitter,
+    .fa-facebook-f,
+    .fa-google-plus-g,
+    .fa-pinterest {
+        color: #fff !important;
+
+    }
+}

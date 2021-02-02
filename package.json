@@ -1,0 +1,24 @@
+{
+  "name": "project-supro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-icons": "^1.3.0",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass --watch src/scss --output src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samantha-35/Project-supro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samantha-35/Project-supro/issues"
+  },
+  "homepage": "https://github.com/Samantha-35/Project-supro#readme"
+}
